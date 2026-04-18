@@ -6,6 +6,7 @@ DB = gdb
 TARGET = main.cpp
 FILE = $(NAME).cpp
 O_NAME = receiver.exe
+PORT = 
 CFLAGS = -std=c++17
 #=====================
 
@@ -15,7 +16,7 @@ all:	# Compiles
 run:	# Compile and run
 	@clear
 	@$(CC) $(CFLAGS) -I . -o $(O_NAME) $(TARGET)
-	@./$(O_NAME)
+	@./$(O_NAME) $(PORT)
 
 debug:	# Compile and Debug
 	@clear

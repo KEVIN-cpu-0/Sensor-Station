@@ -11,10 +11,14 @@
     g++ -std=c++17 -o receiver main.cpp
 
   Run (Windows):
-    ./receiver COM3
+    ./receiver [port name and number]
   Run (Linux/macOS):
-    ./receiver /dev/ttyACM0
+    ./receiver [port name and number] /dev/ttyACM0
 
+  Using the makefile:
+    make - compiles the code and creates receiver.exe
+    make run PORT=[port name and number] - compiles the code and runs receiver.exe
+  
   Find your port:
     Windows  : Device Manager → Ports (COM & LPT)
     Linux    : ls /dev/ttyACM* or ls /dev/ttyUSB*
