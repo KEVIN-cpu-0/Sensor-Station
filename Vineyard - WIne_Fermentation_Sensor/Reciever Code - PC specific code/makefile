@@ -5,20 +5,21 @@ CC = g++
 DB = gdb
 TARGET = main.cpp
 FILE = $(NAME).cpp
-O_NAME = a.exe
+O_NAME = receiver.exe
+CFLAGS = -std=c++17
 #=====================
 
 all:	# Compiles
-	@$(CC) -I . -o $(O_NAME) $(TARGET)
+	@$(CC) $(CFLAGS) -I . -o $(O_NAME) $(TARGET)
 
 run:	# Compile and run
 	@clear
-	@$(CC) -I . -o $(O_NAME) $(TARGET)
+	@$(CC) $(CFLAGS) -I . -o $(O_NAME) $(TARGET)
 	@./$(O_NAME)
 
 debug:	# Compile and Debug
 	@clear
-	@$(CC) -g -I . -o $(O_NAME) $(TARGET)
+	@$(CC) $(CFLAGS) -g -I . -o $(O_NAME) $(TARGET)
 	@$(DB) ./$(O_NAME)
 
 #test:	# Compile and test with 'Grade file'
