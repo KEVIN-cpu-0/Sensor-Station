@@ -1,4 +1,5 @@
 //For serialization
+//receives stuff from the sensor station and turns it into a binary frame that can be sent over the network. It also includes the CRC calculation for data integrity.
 
 #pragma once
 

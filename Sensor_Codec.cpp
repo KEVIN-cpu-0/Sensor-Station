@@ -1,3 +1,4 @@
+//Transmitter between sensor and computer(?)
 #pragma once
 
 #include "sensor_station.cpp"
