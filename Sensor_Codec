@@ -1,6 +1,7 @@
+//Transmitter between sensor and computer(?)
 #pragma once
 
-#include "sensor_station.hpp"
+#include "sensor_station.cpp"
 
 // ============================================================
 //  Serializer  (sensor data → binary frame)
