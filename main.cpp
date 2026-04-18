@@ -1,5 +1,5 @@
-#include "sensor_station.hpp"
-#include "sensor_codec.hpp"
+#include "sensor_station.cpp"
+#include "Sensor_Codec.cpp"
 #include <iostream>
 #include <iomanip>
 #include <ctime>
