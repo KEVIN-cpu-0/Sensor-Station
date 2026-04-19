@@ -14,7 +14,7 @@ In modern farming, data is king, but connectivity is often missing. You are task
 * **Hardware:** Arduino / ESP32 + LoRa Modules
 * **Simulation:** Docker
 * **Communication:** Serial, LoRaWAN
-* **Languages:** C++/Arduino, Python (for data processing)
+* **Languages:** C++/Arduino
 
 ## 📦 Getting Started
 1.  **Clone the repo:**
