@@ -4,10 +4,10 @@ Welcome to the **Ag Sensor Station Problem**. This challenge focuses on precisio
 
 ## 2026 IoT4Ag Hackathon - Team 2 - Sensor Control
 Team Members:
-@DoppelgangerVortex
-@KEVIN-cpu-0
-@Ydde7
-@EZ-Pixel-Dev
+* @DoppelgangerVortex
+* @KEVIN-cpu-0
+* @Ydde7
+* @EZ-Pixel-Dev
 
 ## 🚀 The Challenge
 In modern farming, data is king, but connectivity is often missing. We are tasked with connecting two stations via **LoRa (Long Range)** WAN.
