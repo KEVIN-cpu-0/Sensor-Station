@@ -20,7 +20,7 @@ In modern farming, data is king, but connectivity is often missing. We are taske
 ## Real Life Scenario
 Winemakers and brewers face a major challenge during fermentation: small changes in conditions like temperature, CO2, humidity, pressure, and pH can quickly ruin an entire batch. If the temperature gets too high, yeast can die. If it gets too low, fermentation can slow or stop. Poor CO2 balance can negatively affect flavor, stability, and quality, while shifts in pH and moisture can further disrupt the process. The problem is that these changes are not always caught early enough.
 
-## Our Solution
+## Our Solution - Fermentation Monitoring System
 We’re developing a smart fermentation monitoring system that uses sensors to track key conditions like temperature, pH, and gas activity during alcohol production, then sends that data to a simple interface for real-time viewing. Instead of relying only on manual checks, brewers or producers can monitor the fermentation process more accurately, catch problems earlier, and make better decisions to improve consistency and quality.
 
 ## Some Added Features
