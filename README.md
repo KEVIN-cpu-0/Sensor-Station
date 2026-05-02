@@ -33,6 +33,10 @@ We’re developing a smart fermentation monitoring system that uses sensors to t
 * **Communication:** Serial, LoRaWAN
 * **Languages:** C++/Arduino
 
+## Presentation
+Canva Presentation: https://canva.link/ufqpi3q7dw2j6nu
+Google Doc: https://docs.google.com/document/d/1I-2Qh9vmKXN3N25oVqZpfofVYi6o4RvfuPTzUwevTeE/edit?usp=sharing
+
 ## 📦 Getting Started
 1.  **Clone the repo:**
     ```bash
